@@ -1,0 +1,66 @@
+{
+  "logs": [
+    {
+      "outputFile": "C:\\Users\\Test\\AndroidStudioProjects\\SmartKitchen2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+      "map": [
+        {
+          "source": "C:\\Users\\Test\\.gradle\\caches\\transforms-2\\files-2.1\\625bbaaf13604e9565100ea37fd3c428\\res\\values-v23\\values-v23.xml",
+          "from": {
+            "startLines": "2,3,4,5,6,19,32,33,34,35,36",
+            "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+            "startOffsets": "55,190,325,400,487,1277,2079,2206,2311,2426,2533",
+            "endLines": "2,3,4,5,18,31,32,33,34,35,36",
+            "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
+            "endOffsets": "185,320,395,482,1272,2074,2201,2306,2421,2528,2641"
+          },
+          "to": {
+            "startLines": "17,18,19,20,21,34,47,48,49,50,51",
+            "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+            "startOffsets": "857,992,1127,1202,1289,2079,2881,3008,3113,3228,3335",
+            "endLines": "17,18,19,20,33,46,47,48,49,50,51",
+            "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
+            "endOffsets": "987,1122,1197,1284,2074,2876,3003,3108,3223,3330,3443"
+          }
+        },
+        {
+          "source": "C:\\Users\\Test\\.gradle\\caches\\transforms-2\\files-2.1\\96e491865f6225242abe2e0e9c40ad9c\\res\\values-v23\\values-v23.xml",
+          "from": {
+            "startLines": "2",
+            "startColumns": "4",
+            "startOffsets": "55",
+            "endLines": "4",
+            "endColumns": "12",
+            "endOffsets": "200"
+          },
+          "to": {
+            "startLines": "52",
+            "startColumns": "4",
+            "startOffsets": "3448",
+            "endLines": "54",
+            "endColumns": "12",
+            "endOffsets": "3593"
+          }
+        },
+        {
+          "source": "C:\\Users\\Test\\AndroidStudioProjects\\SmartKitchen2\\app\\src\\main\\res\\values-v23\\styles.xml",
+          "from": {
+            "startLines": "3,11",
+            "startColumns": "4,4",
+            "startOffsets": "59,446",
+            "endLines": "9,18",
+            "endColumns": "12,12",
+            "endOffsets": "438,872"
+          },
+          "to": {
+            "startLines": "2,9",
+            "startColumns": "4,4",
+            "startOffsets": "55,433",
+            "endLines": "8,16",
+            "endColumns": "12,12",
+            "endOffsets": "428,852"
+          }
+        }
+      ]
+    }
+  ]
+}

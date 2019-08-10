@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F7F5F5</color>
+    <color name="colorPrimaryDark">#E9E7E7</color>
+    <color name="colorAccent">#9B7E72</color>
+    <color name="colorTextPrimary">#1F1818</color>
+    <color name="colorTextSecondary">#3F3531</color>
+    <color name="toolbarColor">#ffff</color>
+    <color name="cat_detail_background">#5B090808</color>
+    <color name="recipe_card_background">#B9090808</color>
+    <color name="green">#4CAF50</color>
+    <color name="grey_text">#6B6A6A</color>
+    <color name="error">#B83939</color>
+    <color name="success">#388E3C</color>
+    <color name="info">#72DFCF</color>
+    <color name="warning">#D8A735</color>
+    <color name="facebook_color">#135291</color>
+</resources>

@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Smart Kitchen</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="saved_recipes">Saved Recipes</string>
+    <string name="menu_favs">Favourites</string>
+    <string name="categories">Categories</string>
+    <string name="app_title">De-Choice</string>
+
+    <string-array name="recipe_categories">
+        <item>Select Category</item>
+        <item>Yoruba Collection</item>
+        <item>Hausa Collection</item>
+        <item>Igbo Collection</item>
+    </string-array>
+
+    <string-array name="measurement">
+        <item>grams</item>
+        <item>tsp</item>
+        <item>Tbsp</item>
+        <item>cup</item>
+        <item>lb</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_recipe_detail">RecipeDetailActivity</string>
+    <string name="sample_description">"A material metaphor is the unifying theory of a rationalized"
+        "space and a system of motion. The material is grounded in tactile reality, inspired by the"
+         "study of paper and ink, yet technologically advanced and open to imagination and magic"
+    </string>
+    <string name="permission_read_storage_rationale">Permission needed</string>
+    <string name="permission_camera">Permission  Camera</string>
+
+    <array name="dotColors">
+        <item>@color/red</item>
+        <item>@color/blue</item>
+        <item>@color/yellow</item>
+        <item>@color/green</item>
+    </array>
+
+    <!--Facebook  Credentials-->
+    <string name="facebook_app_id">367529084197935</string>
+    <string name="fb_login_protocol_scheme">fb367529084197935</string>
+
+
+</resources>

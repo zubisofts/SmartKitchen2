@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register_bg"
+    tools:context=".CategoriesActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/main_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingVertical="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp">
+
+                <ImageView
+                    android:id="@+id/menu_toggle"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_menu_list" />
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="16dp"
+                    android:text="@string/app_name"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="top|center"
+                    android:layout_marginTop="60dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_restaurant"
+                    android:tint="@color/ms_material_grey_400" />
+
+                <ListView
+                    android:id="@+id/cat_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="80dp"
+                    android:dividerHeight="0dp"
+                    tools:listitem="@layout/simple_list_item">
+
+                </ListView>
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+
+        <com.github.florent37.shapeofview.shapes.RoundRectView
+            android:id="@+id/cat_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="84dp"
+            android:background="@color/ms_white"
+            android:elevation="8dp"
+            app:shape_roundRect_topLeftRadius="45dp"
+            app:shape_roundRect_topRightRadius="45dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/cat_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lines="1"
+                    android:padding="24dp"
+                    android:text="Category Title"
+                    android:textStyle="bold" />
+
+                <FrameLayout
+                    android:id="@+id/category_fragment_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+
+        </com.github.florent37.shapeofview.shapes.RoundRectView>
+
+    </FrameLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/colorAccent"
+        android:src="@drawable/ic_restaurant"
+        android:tint="@color/ms_white" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
